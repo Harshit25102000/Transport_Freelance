@@ -1,0 +1,481 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow: visible !important;
+}
+
+.nav-link span:hover {
+  color: #e3b251 !important;
+  transition: all 0.3s ease;
+}
+a {
+  text-decoration: none;
+}
+.mylogo {
+  width: 200px !important;
+  height: 100px !important;
+  z-index: 1;
+}
+.submit-btn {
+  font-family: inherit;
+}
+.submit-btn:hover {
+  color: #666666 !important;
+  transition: all 0.3s ease;
+}
+.form-group input::placeholder {
+  color: #bcb9b9 !important;
+}
+.form-group textarea::placeholder {
+  color: #cbc6c6 !important;
+}
+.logimg:hover {
+  width: 245px !important;
+  height: 135px !important;
+  z-index: 999 !important;
+}
+.nav-link {
+  font-size: 14px;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+.logimg {
+  width: 200px !important;
+  height: 120px !important;
+  transition: all 0.3s ease;
+  z-index: 999 !important;
+}
+.carousel-indicators button {
+  color: gold !important;
+  background-color: linear-gradient(#bf953f, #fcf6ba) !important;
+}
+.navbar-nav {
+  align-items: center;
+  vertical-align: middle;
+}
+
+.nav-link {
+  margin-left: 20px;
+}
+
+.homeimge {
+  background-image: url("./asset/frot.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 140vh;
+  width: 100%;
+  position: relative;
+  padding-bottom: 60px;
+}
+.hometext {
+  color: #fff;
+  text-align: center;
+  font-size: 3.75rem;
+  font-weight: 700;
+  animation-duration: 1000ms;
+  top: 25%;
+  position: relative;
+}
+.hometext2 {
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  width: 69%;
+  margin: auto;
+  margin-top: 760px;
+  display: flex;
+  flex-wrap: wrap;
+  word-break: normal;
+}
+.svgimg {
+  width: 80px;
+  height: 80px;
+  transition: all 0.3s ease-in-out;
+}
+.svgimg:hover {
+  width: 100px;
+  height: 86px;
+}
+
+.headtext {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.cimages h1 {
+  display: none;
+}
+
+.cimg {
+  width: 50%;
+  height: 40%;
+  margin: auto;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.cimg:hover {
+  width: 55%;
+}
+
+/* onhover imag h1 display: block;  */
+.cimages h1 {
+  display: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cimages:hover h1 {
+  display: block;
+}
+.dimgtest p {
+  padding-top: 170px;
+}
+.dimgtest img {
+  padding-top: 100px;
+}
+li {
+  list-style-type: none;
+}
+.headerlogo {
+  width: 150px;
+  height: 100px;
+  transition: all 0.3s ease;
+}
+.headerlogo:hover {
+  width: 180px;
+  height: 120px;
+}
+.arobtn {
+  color: black !important;
+  font-size: 1.5rem;
+  background: linear-gradient(#bf953f, #fcf6ba) !important;
+  margin-top: 155px !important;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50% !important;
+  border: none !important;
+}
+
+.heroimgbox {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./asset/imgs/3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.heroimgbox p {
+  font-family: "Oswald", sans-serif !important;
+  display: flex;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 250px;
+}
+
+.img-container .inner-box {
+  display: none;
+}
+.inner-text {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 30px;
+}
+
+.img-container:hover .inner-box {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.headtest {
+  color: #fcf6ba;
+  font-family: "Roboto Slab", serif;
+  font-size: 3rem;
+  line-height: 1.1;
+  text-shadow: 2px 2px 8px rgba(128, 128, 128, 1);
+  font-weight: 700;
+  transition: all 1.25s ease;
+}
+
+.headtest:hover {
+  color: #fff;
+  font-size: 3.7rem;
+  transition: all 0.3s ease;
+}
+
+.logimgphone {
+  width: 100px !important;
+  height: 80px !important;
+  display: none;
+}
+.iconphone {
+  display: none !important;
+}
+.logoicon {
+  display: none !important;
+}
+.bottomtext {
+  margin-top: 100px;
+}
+.phonemode1 {
+  display: block;
+}
+
+.phonemode2 {
+  display: none;
+}
+.footerheight {
+  height: 400px;
+}
+
+.cursorwidth {
+  width: 75%;
+}
+/* media query  */
+@media (max-width: 1024px) {
+  .socialicon {
+    display: none !important;
+  }
+
+  .logimgphone {
+    width: 100px !important;
+    height: 80px !important;
+    display: block;
+  }
+  .logoicon {
+    display: block !important;
+  }
+  .navbar-nav {
+    width: 100% !important;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    vertical-align: middle;
+  }
+  .arobtn {
+    margin-top: 60px !important;
+  }
+}
+
+@media (max-width: 962) {
+  .logimg {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .logoicon {
+    display: block !important;
+  }
+
+  .cursorwidth {
+    width: 100%;
+  }
+  .footerheight {
+    height: 710px;
+  }
+  .bottomtext {
+    margin-top: 80px;
+  }
+  .bottomtext span {
+    font-size: 0.75rem;
+  }
+  .phonemode1 {
+    display: none;
+  }
+  .phonemode2 {
+    display: block;
+  }
+  .flogo {
+    display: none;
+  }
+  .inner-text h4 {
+    font-size: 1rem;
+  }
+  .inner-text p {
+    font-size: 0.8rem;
+  }
+  .footertext {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .sicons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -25px;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+  }
+  .iconphone {
+    display: block;
+  }
+  .oflogo {
+    display: none;
+  }
+  .logimgphone {
+    width: 100px !important;
+    height: 80px !important;
+    display: block;
+    margin-left: 50px;
+  }
+  .arobtn {
+    margin-top: 60px !important;
+  }
+  /* .navbar-nav {
+    width: 100% !important;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    vertical-align: middle;
+  } */
+  .socialicon {
+    display: none !important;
+  }
+
+  .hometext {
+    font-size: 2.5rem;
+  }
+  .hometext2 {
+    font-size: 15px;
+    width: 70%;
+    margin: auto;
+    margin-top: 600px;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-item h1 {
+    font-size: 1rem;
+  }
+  .heroimgbox p {
+    font-size: 1rem;
+  }
+  .headerlogo {
+    width: 100px;
+    height: 80px;
+  }
+  .headerlogo:hover {
+    width: 120px;
+    height: 100px;
+  }
+  .mylogo {
+    width: 150px !important;
+    height: 80px !important;
+  }
+  .logimg:hover {
+    width: 170px !important;
+    height: 90px !important;
+  }
+  .nav-link {
+    font-size: 12px;
+  }
+  .svgimg {
+    width: 60px;
+    height: 60px;
+  }
+  .svgimg:hover {
+    width: 80px;
+    height: 66px;
+  }
+  .headtext {
+    font-size: 1rem;
+  }
+  .heroimgbox p {
+    font-size: 1rem;
+  }
+  .hometext2 {
+    font-size: 15px;
+    width: 80%;
+    margin: auto;
+    margin-top: 600px;
+  }
+  .hometext {
+    font-size: 2.5rem;
+  }
+  .hometext2 {
+    font-size: 15px;
+    width: 80%;
+    margin: auto;
+    margin-top: 600px;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-item h1 {
+    font-size: 1rem;
+  }
+  .heroimgbox p {
+    font-size: 1rem;
+  }
+  .headerlogo {
+    width: 100px;
+    height: 80px;
+  }
+  .headerlogo:hover {
+    width: 120px;
+    height: 100px;
+  }
+  .mylogo {
+    width: 150px !important;
+    height: 80px !important;
+  }
+  .logimg:hover {
+    width: 170px !important;
+    height: 90px !important;
+  }
+  .nav-link {
+    font-size: 12px;
+  }
+  .svgimg {
+    width: 60px;
+    height: 60px;
+  }
+  .svgimg:hover {
+    width: 80px;
+    height: 66px;
+  }
+  .headtext {
+    font-size: 1rem;
+  }
+  .heroimgbox p {
+    font-size: 1rem;
+  }
+}
